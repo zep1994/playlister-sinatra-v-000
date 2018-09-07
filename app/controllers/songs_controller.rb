@@ -12,6 +12,6 @@ class SongsController < ApplicationController
     erb :'/songs/new'
   end
   
-  
+  get '/songs/'
   
 end
