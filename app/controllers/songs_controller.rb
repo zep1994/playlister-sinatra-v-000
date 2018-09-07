@@ -13,7 +13,7 @@ class SongsController < ApplicationController
   end
   
   get '/songs/:slug' do
-    @song = Song.find_by_id
+    @song = Song.find_by_slug()
   end
   
 end
